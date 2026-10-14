@@ -1,5 +1,4 @@
-
-﻿# Xperience Community: Usage Applications
+# Xperience Community: Usage Applications
 
 ## Description
 
