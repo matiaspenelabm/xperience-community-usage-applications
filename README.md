@@ -8,13 +8,13 @@ Adds two read-only applications to the Xperience by Kentico administration, grou
 - **Widget Usage** lists every registered Page Builder widget with the number of times it is placed in the latest version of the site content. Widgets that are still present in content but no longer registered in code are flagged as legacy. Selecting a widget lists the pages (per language) that use it, and each page can be opened in the Page Builder.
 
 Widget placement counts are cached in memory for 5 minutes.
-
+<br><br><br>
 <img width="1484" height="931" alt="screenshot-1791998646179" src="https://github.com/user-attachments/assets/c70a3656-95ae-4a46-afc2-662a647f636d" />
-
+<br><br><br>
 <img width="1766" height="848" alt="screenshot-1791998796208" src="https://github.com/user-attachments/assets/e6c42935-68bf-49d5-8a46-86a15cc47dd3" />
-
+<br><br><br>
 <img width="1719" height="674" alt="screenshot-1791998684825" src="https://github.com/user-attachments/assets/5d552744-d05d-4bd2-8c29-ae7e67de849c" />
-
+<br><br><br>
 ## Requirements
 
 - [ASP.NET Core 10.0](https://dotnet.microsoft.com/en-us/download) or later
