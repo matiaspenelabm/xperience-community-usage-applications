@@ -11,6 +11,7 @@ permissions:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    environment: production   # must match the environment on the nuget.org Trusted Publishing policy
     steps:
       - uses: actions/checkout@v4
 
