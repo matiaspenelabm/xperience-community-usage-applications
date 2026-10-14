@@ -20,12 +20,12 @@
     <Description>Admin applications for Xperience by Kentico that report how many content items use each content type and where each Page Builder widget is used.</Description>
     <RepositoryUrl>https://github.com/matiaspenelabm/xperience-community-usage-applications</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageReadmeFile>docs\README.md</PackageReadmeFile>
+    <PackageReadmeFile>docs/README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\README.md" Pack="true" PackagePath="docs\" />
-    <None Include="..\..\LICENSE.md" Pack="true" PackagePath="licenses\" />
+    <None Include="..\..\README.md" Pack="true" PackagePath="docs/" />
+    <None Include="..\..\LICENSE.md" Pack="true" PackagePath="licenses/" />
   </ItemGroup>
 
 </Project>
