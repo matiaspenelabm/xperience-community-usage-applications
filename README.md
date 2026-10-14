@@ -17,7 +17,7 @@ Widget placement counts are cached in memory for 5 minutes.
 
 ## Requirements
 
-- [ASP.NET Core 8.0](https://dotnet.microsoft.com/en-us/download) or later
+- [ASP.NET Core 10.0](https://dotnet.microsoft.com/en-us/download) or later
 - [Xperience by Kentico](https://docs.kentico.com) 31.9.1 or later
 
 ## Package Installation

@@ -13,11 +13,11 @@ jobs:
     runs-on: ubuntu-latest
     environment: production   # must match the environment on the nuget.org Trusted Publishing policy
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-dotnet@v4
+      - uses: actions/setup-dotnet@v5
         with:
-          dotnet-version: 8.0.x
+          dotnet-version: 10.0.x
 
       # Tag v1.2.3 publishes package version 1.2.3
       - run: dotnet pack src/XperienceCommunity.UsageApplications/XperienceCommunity.UsageApplications.csproj -c Release -o out -p:Version=${GITHUB_REF_NAME#v}
