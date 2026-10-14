@@ -16,9 +16,10 @@ jobs:
 
       - uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: 9.0.x
+          dotnet-version: 8.0.x
 
-      - run: dotnet pack -c Release -o out
+      # Tag v1.2.3 publishes package version 1.2.3
+      - run: dotnet pack src/XperienceCommunity.UsageApplications/XperienceCommunity.UsageApplications.csproj -c Release -o out -p:Version=${GITHUB_REF_NAME#v}
 
       - uses: NuGet/login@v1
         id: login
